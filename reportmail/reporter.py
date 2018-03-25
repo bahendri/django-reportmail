@@ -15,7 +15,6 @@ So committers are totally separated from reporters and reporter delegates the se
 committers.
 """
 from django.core.mail import mail_admins, mail_managers
-from django.template import Context
 from django.template.loader import get_template
 
 
@@ -99,7 +98,7 @@ class Reporter(object):
         """
         ctx = self.base_context.copy()
         ctx['stored_text'] = self.stored_text
-        return get_template(self.template).render(Context(ctx))
+        return get_template(self.template).render(ctx)
 
     def abort(self):
         """  Aborting commit of this reporter.
