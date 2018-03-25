@@ -9,3 +9,10 @@ DATABASES = {
 }
 SECRET_KEY = "secret_key_for_testing"
 MIDDLEWARE_CLASSES = []
+
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'APP_DIRS': True,
+    },
+]
