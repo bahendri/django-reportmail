@@ -46,15 +46,14 @@ django-reportmail is guaranteed to work correctly on following environments.
 Python:
 
 * 2.7
-* 3.3
-* 3.4
-* 3.5
+* 3.6
 
 Django:
 
-* 1.6
-* 1.7
 * 1.8
+* 1.9
+* 1.10
+* 1.11
 
 All set
 -------
