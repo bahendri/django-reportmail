@@ -28,7 +28,7 @@ setup(
         "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
         ],
     install_requires=[
-        'Django>=1.8,<=1.11',
+        'Django>=1.8,<2.0',
     ],
     include_package_data=True,
     zip_safe=False,
