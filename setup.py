@@ -7,7 +7,7 @@ CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 setup(
     name='django-reportmail',
-    version='1.3.1',
+    version='1.4.0',
     packages=['reportmail'],
     url='https://github.com/hirokiky/django-reportmail',
     license='MIT',
@@ -23,12 +23,15 @@ setup(
         "Programming Language :: Python :: 3.3",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
         "Framework :: Django",
         "Topic :: Internet :: WWW/HTTP",
         "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
         ],
     install_requires=[
-        'Django>=1.8,<2.0',
+        'Django>=1.8,<3.0',
     ],
     include_package_data=True,
     zip_safe=False,
